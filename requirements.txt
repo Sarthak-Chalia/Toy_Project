@@ -1,0 +1,4 @@
+langchain
+together
+pytho-dotenv
+streamlit
