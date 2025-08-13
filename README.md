@@ -80,24 +80,23 @@
 - Microphone
 - Speaker/audio output
 
-##Usage Instructions
-
-Activation:
+### usage instructions
+- Activation:
 Run the program in terminal:
 python assistant.py
 System starts in sleep mode listening for wake word "porcupine"
 
-Authentication:
+- Authentication:
 When activated, system will prompt for:
 Username (voice input)
 Password (voice input)
 New users will go through account creation
 
-Interaction:
+- Interaction:
 After authentication, speak your query
 System responds via voice and maintains context
 Previous 10 messages are used for context
 
-Deactivation:
+- Deactivation:
 Say "exit" or "quit" to end session
 System returns to sleep mode after each interaction
